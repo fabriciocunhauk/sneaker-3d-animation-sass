@@ -1,14 +1,13 @@
 const card = document.querySelector(".card");
 const container = document.querySelector(".container");
-const title = document.querySelector(".title");
 const sneaker = document.querySelector(".sneaker img");
-const purchase = document.querySelector(".purchase button");
+const title = document.querySelector(".title");
 const description = document.querySelector(".info h3");
 const sizes = document.querySelector(".sizes");
+const purchase = document.querySelector(".purchase button");
 
 //Moving Animation
 container.addEventListener("mousemove", e => {
-    console.log(e);
     let xAxis = (window.innerWidth / 2 - e.pageX) / 10;
     let yAxis = (window.innerHeight / 2 - e.pageY) / 10;
 
